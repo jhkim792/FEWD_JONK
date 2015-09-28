@@ -1,0 +1,52 @@
+body{
+  background-color: #F0F8FF;
+  margin: 0;
+  border: 3px solid black;
+  padding: 30px;
+
+}
+img {
+  float:right;
+  clear: right;
+  }
+
+
+h1 {
+  font-family: Georgia, serif;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+h3 {
+  font-family: sans-serif;
+}
+h4 {
+  font-family: sans-serif;
+}
+h5 {
+  font-family: sans-serif;
+}
+.drop:first-letter{
+  float: left; 
+  color: red; 
+  font-size: 75px;
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+  font-family: Georgia; 
+}
+ul li::before{
+  content: "jkim"; 
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: rgb(0,200,200);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+ul {
+list-style-type: square;
+}
