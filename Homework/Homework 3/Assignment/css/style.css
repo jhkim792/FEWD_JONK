@@ -108,6 +108,7 @@ footer {
   text-align: center;
   background-color: #606161;
   color:white;
+  padding-bottom: 40px;
 }
 
 /******************************************
@@ -138,7 +139,6 @@ footer {
   border-radius: 5px;
   background-color: #f9e42e;
   text-align: center;
-  vertical-align: middle;
   width: 150px;
   height: 25px;
   margin: auto;
@@ -164,9 +164,8 @@ footer {
   text-align: center;
   width:200px;
   height:50px;
-  position:relative;
-  left: 285px;
   padding-top: 17px;
+  margin:auto;
 }
 
 .endtitle{
@@ -174,8 +173,8 @@ footer {
   font-size: 24px;
   font-weight: 800;
   text-align: center;
-  position:relative;
-  top: 50px;
+  margin:auto;
+  padding-top: 40px;
 }
 
 .quote{
@@ -184,9 +183,9 @@ footer {
   font-size: 18px;
   color: white;
   width:250px;
-  position:relative;
-  left: 265px;
-  top: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
 }
 .person{
   color: white;
